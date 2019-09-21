@@ -9,6 +9,8 @@ import { PesquisaClienteComponent } from './conteudo/pesquisa-cliente/pesquisa-c
 import { DetalheClienteComponent } from './conteudo/detalhe-cliente/detalhe-cliente.component';
 import { DetalheClienteTransacaoComponent } from './conteudo/detalhe-cliente/detalhe-cliente-transacao/detalhe-cliente-transacao.component';
 import { FooterComponent } from './footer/footer.component';
+import { DadosCadastroClienteComponent } from './conteudo/dados-cadastro-cliente/dados-cadastro-cliente.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FooterComponent } from './footer/footer.component';
     PesquisaClienteComponent,
     DetalheClienteComponent,
     DetalheClienteTransacaoComponent,
-    FooterComponent
+    FooterComponent,
+    DadosCadastroClienteComponent
+    
   ],
   imports: [
     BrowserModule
