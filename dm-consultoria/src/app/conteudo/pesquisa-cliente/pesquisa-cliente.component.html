@@ -1,31 +1,17 @@
 <div class="jumbotron h-100 mb-0">
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar Clientes..." aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-     </form>            
-   <hr class="my-4">             
-   <ul class="list-group">
-      <li class="list-group-item small">xanderifer1974@gmail.com</li>
-      <li class="list-group-item small">Alexandre Ribeiro Ferreira</li>
-      <li class="list-group-item small">044.368.237-25</li>
-    </ul>             
-   <hr class="my-4"> 
-   <ul class="list-group">
-      <li class="list-group-item small">xanderifer1974@gmail.com</li>
-      <li class="list-group-item small">Alexandre Ribeiro Ferreira</li>
-      <li class="list-group-item small">044.368.237-25</li>
-    </ul>             
-   <hr class="my-4"> 
-   <ul class="list-group">
-      <li class="list-group-item small">xanderifer1974@gmail.com</li>
-      <li class="list-group-item small">Alexandre Ribeiro Ferreira</li>
-      <li class="list-group-item small">044.368.237-25</li>
-    </ul>             
-   <hr class="my-4"> 
-   <ul class="list-group">
-      <li class="list-group-item small">xanderifer1974@gmail.com</li>
-      <li class="list-group-item small">Alexandre Ribeiro Ferreira</li>
-      <li class="list-group-item small">044.368.237-25</li>
-    </ul>             
-   <hr class="my-4">          
+   <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar Clientes..." aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+   </form>
+   <br>
+   <div *ngFor="let cliente of clientes">
+      <ul class="list-group">
+         <a href="">
+            <li class="list-group-item small">{{cliente.email}}</li>
+            <li class="list-group-item small">{{cliente.nome}}</li>
+            <li class="list-group-item small">{{cliente.cpf}}</li>
+         </a>
+         <hr class="my-4">
+      </ul>
+   </div>
 </div>
