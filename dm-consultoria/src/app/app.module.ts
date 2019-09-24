@@ -13,6 +13,7 @@ import { DetalheClienteComponent } from './conteudo/detalhe-cliente/detalhe-clie
 import { DetalheClienteTransacaoComponent } from './conteudo/detalhe-cliente/detalhe-cliente-transacao/detalhe-cliente-transacao.component';
 import { FooterComponent } from './footer/footer.component';
 import { DadosCadastroClienteComponent } from './conteudo/dados-cadastro-cliente/dados-cadastro-cliente.component';
+import { ClienteService } from './services/cliente.service';
 
 
 @NgModule({
@@ -32,7 +33,9 @@ import { DadosCadastroClienteComponent } from './conteudo/dados-cadastro-cliente
     BrowserModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [],
+  providers: [
+    ClienteService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

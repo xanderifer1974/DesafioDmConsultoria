@@ -6,8 +6,8 @@ import { ClienteService } from 'src/app/services/cliente.service';
 @Component({
   selector: 'dm-pesquisa-cliente',
   templateUrl: './pesquisa-cliente.component.html',
-  styleUrls: ['./pesquisa-cliente.component.css'],
-  providers: [ClienteService]
+  styleUrls: ['./pesquisa-cliente.component.css']
+ 
 })
 export class PesquisaClienteComponent implements OnInit {
 
