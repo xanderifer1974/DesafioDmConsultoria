@@ -18,7 +18,8 @@ export class PesquisaClienteComponent implements OnInit {
 
   ngOnInit() {    
 
-    this.clientes =this.clienteService.getClientes();
+    return this.clienteService.getClientes()
+    .subscribe(data => this.clientes = data);
   }
 
 }

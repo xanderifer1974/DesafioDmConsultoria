@@ -14,6 +14,7 @@ import { DetalheClienteTransacaoComponent } from './conteudo/detalhe-cliente/det
 import { FooterComponent } from './footer/footer.component';
 import { DadosCadastroClienteComponent } from './conteudo/dados-cadastro-cliente/dados-cadastro-cliente.component';
 import { ClienteService } from './services/cliente.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ClienteService } from './services/cliente.service';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [

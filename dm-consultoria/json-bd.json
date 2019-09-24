@@ -35,6 +35,12 @@
 		"nome":"Kelly Guissa",
 		"email":"salsich@obig.net",
 		"cpf":"67890123456"
+	},
+	{  
+		"codigo":7,
+		"nome":"Alexandre Ribeiro",
+		"email":"xanderifer1974@gmail.com",
+		"cpf":"04436823725"
 	}
 	]
 }	
