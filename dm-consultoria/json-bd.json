@@ -42,5 +42,217 @@
 		"email":"xanderifer1974@gmail.com",
 		"cpf":"04436823725"
 	}
+	],
+	"detalhe-cliente": [  
+		{  
+			"id":1,
+			"nome":"Paulo Santos de Almeida",
+			"email":"paulo.santos@email.com",
+			"cpf":"02341233409",
+			"idade":36,
+			"pontos": {
+			"total":189274.73,
+  			"utilizados":109000,
+			"expirados":78000,
+			"saldo":227473
+			},			
+			"endereco":{  
+				"tipo":"Rua",
+				"logradouro":"Visconde de Souza",
+				"numero":"23",
+				"complemento":"Bloco 2, Ap 201",
+				"bairro":"Barra da Tijuca",
+				"cidade":"Rio de Janeiro",
+				"Estado":"RJ",
+				"Pais":"Brasil"
+			  },
+			  "telefone":{  
+				"pais":"55",
+				"area":"21",
+				"numero":"987654321"
+			  },
+			  "foto":"assets/fotos/foto-id-01.jpg",
+			  "obs":"No último atendimento, o Sr. Paulo estava bastante irritado com a demora no cadastro das notas fiscais."
+		},
+		{  
+			"id":2,
+			"nome":"Antonio Marques da Silva",
+			"email":"tonhomsilva@email.com",
+			"cpf":"23456789012",
+			"idade":23,		
+			"pontos": {
+			"total":54124.74,
+  			"utilizados":30000,
+			"expirados":14545,
+			"saldo":9579.74
+			},			
+			"endereco":{  
+				"tipo":"Avenida",
+				"logradouro":"Duque de Caxias",
+				"numero":"41541",
+				"complemento":"Bloco 3, Ap 304",
+				"bairro":"Deodoro",
+				"cidade":"Rio de Janeiro",
+				"Estado":"RJ",
+				"Pais":"Brasil"
+			  },
+			  "telefone":{  
+				"pais":"55",
+				"area":"21",
+				"numero":"97455415"
+			  },
+			  "foto":"assets/fotos/foto-id-02.jpg",
+			  "obs":"Sr. Antonio ficou muito satisfeito com os atendimentos."
+		},	
+		{  
+			"id":3,
+			"nome":"João Sousa Siqueira",
+			"email":"jaosiq@email.com",
+			"cpf":"34567890123",
+			"idade":43,		
+			"pontos": {
+			"total":545154.44,
+  			"utilizados":120000,
+			 "expirados":80000,
+			 "saldo":345154.44
+			},			
+			"endereco":{  
+				"tipo":"Avenida",
+				"logradouro":"Mirandela",
+				"numero":"74",
+				"complemento":"Bloco 2, Ap 304",
+				"bairro":"Centro",
+				"cidade":"Nilópolis",
+				"Estado":"RJ",
+				"Pais":"Brasil"
+			  },
+			  "telefone":{  
+				"pais":"55",
+				"area":"21",
+				"numero":"97455415"
+			  },
+			  "foto":"assets/fotos/foto-id-03.jpg",
+			  "obs":"Sr. João Souza relata demora no último atendimento."
+		},
+		{  
+			"id":4,
+			"nome":"Armando Jogada",
+			"email":"armando.player@gmail.com",
+			"cpf":"45678901234",
+			"idade":54,		
+			"pontos": {
+			"total":131415.74,
+  			"utilizados":31000,
+			"expirados":50000,
+			"saldo":50415.74
+			},			
+			"endereco":{  
+				"tipo":"Avenida",
+				"logradouro":"Santa Cruz",
+				"numero":"124",
+				"complemento":"Bloco 7, Ap 801",
+				"bairro":"Realengo",
+				"cidade":"Rio de Janeiro",
+				"Estado":"RJ",
+				"Pais":"Brasil"
+			  },
+			  "telefone":{  
+				"pais":"55",
+				"area":"21",
+				"numero":"97154514"
+			  },
+			  "foto":"assets/fotos/foto-id-04.jpg",
+			  "obs":"Sr. Armando Jogada ficou satisfeito com o atendimento."
+		},
+		{  
+			"id":5,
+			"nome":"Jordência Sexta",
+			"email":"jordanfriday@hotmail.com",
+			"cpf":"56789012345",
+			"idade":36,		
+			"pontos": {
+			"total":131415.74,
+			"utilizados":31000,
+			"expirados":50000,
+			"saldo":50415.74
+			},			
+			"endereco":{  
+				"tipo":"Rua",
+				"logradouro":"Visconde de Souza",
+				"numero":"23",
+				"complemento":"Bloco 2, Ap 201",
+				"bairro":"Barra da Tijuca",
+				"cidade":"Rio de Janeiro",
+				"Estado":"RJ",
+				"Pais":"Brasil"
+			  },
+			  "telefone":{  
+				"pais":"55",
+				"area":"21",
+				"numero":"987654321"
+			  },
+			  "foto":"assets/fotos/foto-id-05.jpg",
+			  "obs":"Sra. Jordência Sexta ficou satisfeita com o atendimento."
+		},
+		{  
+			"id":6,
+			"nome":"Kelly Guissa",
+			"email":"salsich@obig.net",
+			"cpf":"67890123456",
+			"idade":18,		
+			"pontos": {
+				"total":131415.74,
+				"utilizados":31000,
+				"expirados":50000,
+				"saldo":50415.74
+				},				
+			"endereco":{  
+				"tipo":"Rua",
+				"logradouro":"Visconde de Souza",
+				"numero":"23",
+				"complemento":"Bloco 2, Ap 201",
+				"bairro":"Barra da Tijuca",
+				"cidade":"Rio de Janeiro",
+				"Estado":"RJ",
+				"Pais":"Brasil"
+			  },
+			  "telefone":{  
+				"pais":"55",
+				"area":"21",
+				"numero":"987654321"
+			  },
+			  "foto":"assets/fotos/foto-id-06.jpg",
+			  "obs":"Sra. Kelly Guissa ficou satisfeita com o atendimento."
+		},
+		{  
+			"id":7,
+			"nome":"Alexandre Ribeiro",
+			"email":"xanderifer1974@gmail.com",
+			"cpf":"04436823725",
+			"idade":36,		
+			"pontos": {
+				"total":131415.74,
+				"utilizados":31000,
+				"expirados":50000,
+				"saldo":50415.74
+				},		
+			"endereco":{  
+				"tipo":"Rua",
+				"logradouro":"Betim",
+				"numero":"2",
+				"complemento":" ",
+				"bairro":"Magalhães Bastos",
+				"cidade":"Rio de Janeiro",
+				"Estado":"RJ",
+				"Pais":"Brasil"
+			  },
+			  "telefone":{  
+				"pais":"55",
+				"area":"21",
+				"numero":"985889919"
+			  },
+			  "foto":"assets/fotos/foto-id-07.jpg",
+			  "obs":"Sr. Alexandre relata que está muito satisfeito com o atendimento."
+		}
 	]
 }	
