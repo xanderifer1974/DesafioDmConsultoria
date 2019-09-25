@@ -11,14 +11,14 @@ import { ClienteService } from 'src/app/services/cliente.service';
 })
 export class PesquisaClienteComponent implements OnInit {
 
-  public clientes: Cliente []
+   clientes: Cliente []
   
 
   constructor(private clienteService:ClienteService) { }
 
   ngOnInit() {    
 
-    return this.clienteService.getClientes()
+     this.clienteService.getClientes()
     .subscribe(data => this.clientes = data);
   }
 
