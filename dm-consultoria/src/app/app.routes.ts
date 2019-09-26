@@ -10,7 +10,9 @@ export const ROUTES: Routes = [
      children: [
         {path:'', redirectTo: 'pesquisa-cliente', pathMatch: 'full'},
         {path: 'pesquisa-cliente',component: PesquisaClienteComponent},
-        {path: 'dados-cliente',component: DadosCadastroClienteComponent}
+        {path: 'pesquisa-cliente/:id',component: PesquisaClienteComponent},
+        {path: 'dados-cliente',component: DadosCadastroClienteComponent},
+        {path: 'dados-cliente/:id',component: DadosCadastroClienteComponent}
         // {path: 'cliente/:id',component: DadosCadastroClienteComponent}
      ]}  
 

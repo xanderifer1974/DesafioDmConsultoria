@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http'
 import { Cliente } from '../model/cliente.model'
 
 import { DM_API } from '../app.api'
+import { DetalheCliente } from '../model/detalhe-cliente.model'
 
 
 
@@ -11,13 +12,26 @@ import { DM_API } from '../app.api'
 @Injectable()
 export class ClienteService {
 
-  private readonly apiUrl = `${DM_API}/clientes`
-
+  
   constructor(private _http: HttpClient) { }
 
   public getClientes() {
 
-    return this._http.get<Cliente[]>(this.apiUrl)
+    return this._http.get<Cliente[]>(`${DM_API}/clientes`)
 
   }
+
+  public getClientesById(id: string) {
+
+    return this._http.get<Cliente[]>(`${DM_API}/clientes/${id}`)
+
+  }
+
+  public getDetalheClientesById(id: string) {
+
+    return this._http.get<DetalheCliente[]>(`${DM_API}/detalhe-cliente/${id}`)
+
+  }
+
+  
 }
